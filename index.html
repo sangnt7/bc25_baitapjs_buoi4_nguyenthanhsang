@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Bài tập JavaScript buổi 4</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Bài 1 -->
+  <section id="b1" class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <h1> Bài tập 1: nhập vào 3 số Nguyên và sắp xếp theo thứ tự tăng dần </h1>
+          <div class="card-header">Nhập vào 3 số Nguyên</div>
+          <div class="card-body">
+            <h3>Nhập vào số đầu tiên</h3>
+            <input id="so1" type="number" placeholder="Số đầu tiên">
+            <h3> Nhập vào số thứ 2 </h3>
+            <input id="so2" type="number" placeholder="Số thứ hai">
+            <h3>Nhập vào số thứ 3</h3>
+            <input id="so3" type="number" placeholder="Số thứ ba">
+
+          </div>
+          <div class="card-footer">
+            <button id="get" class="btn btn-primary">Sắp xếp</button>
+            <div class="alert-primary">
+              <strong id="kq1"></strong>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bài 2 -->
+  <section id="b2" class="container">
+    <h1> Bài 2: Ai Đang Sử dụng Máy</h1>
+    <div class="row">
+      <div class="card col-md-6">
+        <div class="card-header"> Chọn Người Sử Dụng</div>
+        <div class="card-body">
+          <div class="form-group">
+            <div class="alert-primary">
+              <strong id="tbao"></strong>
+              <select id="pick" class="form-control">
+                <option value="B">Ba</option>
+                <option value="M">Mẹ</option>
+                <option value="A">Anh Trai</option>
+                <option value="E">Em Gái</option>
+                <option value="K">Khác</option>
+              </select>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button id="btn" type="button" class="btn btn-primary btn-lg"> Đăng nhập</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bài 3 -->
+  <section id="b3" class="container">
+    <h1> Bài tập 3: nhập vào 3 số Nguyên và đếm có bao nhiêu số chẵn lẽ </h1>
+    <div class="card-header">Nhập vào 3 số Nguyên</div>
+    <div class="card-body">
+      <h3>Nhập vào số đầu tiên</h3>
+      <input id="num1" type="number" placeholder="Số đầu tiên">
+      <h3> Nhập vào số thứ 2 </h3>
+      <input id="num2" type="number" placeholder="Số thứ hai">
+      <h3>Nhập vào số thứ 3</h3>
+      <input id="num3" type="number" placeholder="Số thứ ba">
+
+    </div>
+    <div class="card-footer">
+      <button id="dem" class="btn btn-primary">Đếm</button>
+      <div class="alert-primary">
+        <strong id="kq2"></strong>
+  </section>
+  <!-- bài 4 -->
+  <section id="b4" class="container">
+    <h1> Bài tập 4: Tam giác gì? </h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card-header">Nhập vào 3 cạnh của tam giác</div>
+        <div class="card-body">
+          <h3>Cạnh 1</h3>
+          <input id="canh1" type="number" placeholder=" Chiều dài Cạnh thứ nhất">
+          <h3> Cạnh 2 </h3>
+          <input id="canh2" type="number" placeholder=" Chiều dài Cạnh thứ hai">
+          <h3> Cạnh 3</h3>
+          <input id="canh3" type="number" placeholder=" Chiều dài Cạnh thứ ba">
+
+        </div>
+        <div class="card-footer">
+          <button id="xem" class="btn btn-primary">Xem Nào</button>
+          <div class="alert-primary">
+            <strong id="kq3"></strong>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
